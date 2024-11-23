@@ -19,9 +19,31 @@
             color: #fff;
             padding: 2rem 0;
             text-align: center;
+            position: relative;
         }
         header h1 {
             font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .hero-button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 10px 20px;
+            background: #fff;
+            color: #4CAF50;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none;
+        }
+        .hero-button:hover {
+            background: #e8f5e9;
         }
         nav {
             display: flex;
@@ -45,6 +67,21 @@
             background: #fff;
             padding: 2rem;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-section {
+            background: #f1f8e9;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .testimonial {
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .testimonial strong {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
         }
         footer {
             background: #333;
@@ -117,7 +154,8 @@
 <body>
     <header>
         <h1>Your Digital Catalysts</h1>
-        <p>Your Dedicated Media Partner</p>
+        <p>Boost Your Digital Presence with a Dedicated Assistant</p>
+        <a href="#contact" class="hero-button">Get Started</a>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -134,6 +172,17 @@
         <section class="section">
             <h2>Welcome to Your Digital Catalysts</h2>
             <p>At Your Digital Catalysts, we specialize in providing tailored media management solutions for small to medium-sized businesses. From social media management to website creation and paid ad campaigns, we are your one-stop solution for a streamlined digital presence.</p>
+        </section>
+        <section class="testimonial-section">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                "Your Digital Catalysts transformed our online presence. The dedicated assistant model works perfectly for our needs!"
+                <strong>- Jane Doe, Business Owner</strong>
+            </div>
+            <div class="testimonial">
+                "Their team is professional, efficient, and truly understands small business challenges. Highly recommend!"
+                <strong>- John Smith, Entrepreneur</strong>
+            </div>
         </section>
         <section class="section">
             <h2>Our Services</h2>
